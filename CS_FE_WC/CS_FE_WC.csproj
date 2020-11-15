@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F558948-6939-4028-9C40-1A1502C151CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CS_FE_WC</RootNamespace>
+    <AssemblyName>CS_FE_WC</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Busan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busan.Designer.cs">
+      <DependentUpon>Busan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chungbuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chungbuk.Designer.cs">
+      <DependentUpon>Chungbuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chungnam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chungnam.Designer.cs">
+      <DependentUpon>Chungnam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daegu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daegu.Designer.cs">
+      <DependentUpon>Daegu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daejeon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daejeon.Designer.cs">
+      <DependentUpon>Daejeon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gangwon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gangwon.Designer.cs">
+      <DependentUpon>Gangwon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gwangju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gwangju.Designer.cs">
+      <DependentUpon>Gwangju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gyeongbuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gyeongbuk.Designer.cs">
+      <DependentUpon>Gyeongbuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gyeonggi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gyeonggi.Designer.cs">
+      <DependentUpon>Gyeonggi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gyeongnam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gyeongnam.Designer.cs">
+      <DependentUpon>Gyeongnam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InCheon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InCheon.Designer.cs">
+      <DependentUpon>InCheon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jeju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jeju.Designer.cs">
+      <DependentUpon>Jeju.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jeonbuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jeonbuk.Designer.cs">
+      <DependentUpon>Jeonbuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jeonnam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jeonnam.Designer.cs">
+      <DependentUpon>Jeonnam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Long.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Long.Designer.cs">
+      <DependentUpon>Long.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Now.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Now.Designer.cs">
+      <DependentUpon>Now.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seoul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seoul.Designer.cs">
+      <DependentUpon>Seoul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ulsan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ulsan.Designer.cs">
+      <DependentUpon>Ulsan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Busan.resx">
+      <DependentUpon>Busan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chungbuk.resx">
+      <DependentUpon>Chungbuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chungnam.resx">
+      <DependentUpon>Chungnam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daegu.resx">
+      <DependentUpon>Daegu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daejeon.resx">
+      <DependentUpon>Daejeon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gangwon.resx">
+      <DependentUpon>Gangwon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gwangju.resx">
+      <DependentUpon>Gwangju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gyeongbuk.resx">
+      <DependentUpon>Gyeongbuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gyeonggi.resx">
+      <DependentUpon>Gyeonggi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gyeongnam.resx">
+      <DependentUpon>Gyeongnam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InCheon.resx">
+      <DependentUpon>InCheon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jeju.resx">
+      <DependentUpon>Jeju.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jeonbuk.resx">
+      <DependentUpon>Jeonbuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jeonnam.resx">
+      <DependentUpon>Jeonnam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Long.resx">
+      <DependentUpon>Long.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Now.resx">
+      <DependentUpon>Now.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Seoul.resx">
+      <DependentUpon>Seoul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ulsan.resx">
+      <DependentUpon>Ulsan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map2015.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\가끔 눈 또는 비.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\가끔 눈.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\가끔 비 또는 눈.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\가끔 비.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\구름많음.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\구름조금.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\눈 또는 비.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\눈.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\맑음.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\비 또는 눈.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\비.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\소나기.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\안개.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\천둥번개.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\황사.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\흐림.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\사본 -2J2A6389.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\메인배경.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YTN세계날씨 BGM.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
